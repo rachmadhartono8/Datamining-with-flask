@@ -107,7 +107,7 @@ def output():
 
         try:
             prediction = stroke_pred(g,a,hyt,ht,m,w,r,gl,b,s)
-            return render_template('index.html',prediction=prediction)
+            return render_template('graduationscore.html',prediction=prediction)
 
         except ValueError:
             return "Please Enter Valid Values"

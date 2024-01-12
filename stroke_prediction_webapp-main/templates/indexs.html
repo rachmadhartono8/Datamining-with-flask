@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Prediction Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #E5E7EB;
+        }
+        .rounded-xl {
+            border-radius: 1.5rem;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-200">
+    <div class="bg-gray-400 p-10 rounded-xl shadow-xl">
+        <h1 class="text-3xl font-bold mb-6 text-center">STROKE PREDICTION</h1>
+        <form class="space-y-4">
+            <div>
+                <label class="block mb-2">Gender :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Enter Age :</label>
+                <input type="text" placeholder="e.g 1-100" class="w-full p-2 rounded">
+            </div>
+            <div>
+                <label class="block mb-2">Hypertension :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Any Heart Disease :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Are You Married :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Work-Type :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Private</option>
+                    <option>Self-employed</option>
+                    <option>Govt_job</option>
+                    <option>Children</option>
+                    <option>Never_worked</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Residency Type :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Urban Area</option>
+                    <option>Rural Area</option>
+                </select>
+            </div>
+            <div>
+                <label class="block mb-2">Enter Glucose Levels :</label>
+                <input type="text" placeholder="e.g 80-300" class="w-full p-2 rounded">
+            </div>
+            <div>
+                <label class="block mb-2">Enter Your BMI :</label>
+                <input type="text" placeholder="e.g 18-45" class="w-full p-2 rounded">
+            </div>
+            <div>
+                <label class="block mb-2">Smoking Status :</label>
+                <select class="w-full p-2 rounded">
+                    <option>Unknown</option>
+                    <option>Formerly smoked</option>
+                    <option>Never smoked</option>
+                    <option>Smokes</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="w-full p-2 rounded bg-white mt-4">SUBMIT</button>
+            </div>
+        </form>
+        <p class="text-right text-xs mt-4">Developed By Sreeram S</p>
+    </div>
+</body>
+</html>
